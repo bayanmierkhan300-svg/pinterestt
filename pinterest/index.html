@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-top: 0;
+            min-height: 100vh;
+            display: flex;
+            height: 1900px;
+            border-bottom: 1px solid lightgray;
+
+        }
+        input{
+            margin-top: 15px;
+            width: 900px;
+            height: 40px;
+            background-color: rgb(212, 210, 210);
+            border: none;
+            border-radius: 7px;
+        }
+        .photos{
+            display: grid;
+            place-content: center;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(10, 1fr);
+            gap: 500px;
+            display: flex;
+            border-radius: 30px;
+            
+        }
+        .box{
+            width: 250px;
+            height: 250px;
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+        }
+        .general{
+            display: flex;
+        }
+        .left-top{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding-top: 50px;
+            padding-left: 10px;
+        }
+        .all{
+            display: flex;
+            margin-left: 100px;
+            gap: 20px;
+            margin-top: -15px;
+            padding-top: 30px;
+            margin-left: -0px;
+            font-family: sans-serif;
+        }
+        .bagan1{
+            display: flex;
+            flex-direction: column;
+            border-radius: 50px;
+        }
+        .bagan1 img{
+            border-radius: 30px;
+        }
+        .bagan2{
+            display: flex;
+            flex-direction: column;
+            margin-left: -450px;
+            border-radius: 30px;
+        }
+        .bagan2 img{
+            border-radius: 30px;
+            gap: 3px;
+        }
+        .bagan3{
+            display: flex;
+            flex-direction: column;
+            margin-left: -400px;
+            border-radius: 30px;
+            gap: 70px;
+        }
+        .bagan3 img{
+            border-radius: 30px;
+            /* gap: 300px; */
+        }
+        .bagan4{
+            display: flex;
+            flex-direction: column;
+            margin-left: -400px;
+            border-radius: 30px;
+            gap: 90px;
+        }
+        .bagan4 img{
+            border-radius: 30px;
+            gap: 300px;
+        }
+        .bagan5{
+            display: flex;
+            flex-direction: column;
+            margin-left: -400px;
+            border-radius: 30px;
+            gap: 70px;
+            column-gap: 10px;
+        }
+        .bagan5 img{
+            border-radius: 30px;
+            /* gap: 300px; */
+        }
+        .box2{
+            margin-top: -70px;
+        }
+        .box3{
+            margin-top: -50px;
+        }
+        .box4{
+            margin-top: -50px;
+        }
+        .box5{
+            margin-top: -100px;
+        }
+        .box6{
+            margin-top: 100px;
+        }
+        .box8{
+            margin-top: -50px;
+        }
+        .box9{
+            margin-top: 150px;
+        }
+        .box14{
+            margin-top: 150px;
+        }
+         .box15{
+            margin-top: -50px;
+        }
+        .box17{
+            margin-top: -400px;
+        }
+        .box22{
+            margin-top: -50px;
+        }
+        .box25{
+            margin-top: 150px;
+        }
+        .box26{
+            margin-top: 100px;
+        }
+        .box27{
+            margin-top: -100px;
+        }
+        /* .box14{
+            padding-top: 120px;
+        }
+        .box15{
+            padding-top: -200px;
+        }
+        .box16{
+            padding-top: -300px;
+        }
+        .box25{
+            padding-top: 150px;
+        }
+        .box26{
+            padding-top: 80px;
+        }
+        .box27{
+            padding-top: -100px;
+        }
+        .box8{
+            padding-top: -100px;
+        }
+        .box9{
+            padding-top: 170px;
+        }
+        .box10{
+            padding-top: -150px;
+        }
+        .box2{
+            padding-top: -200px;
+        }
+        .box3{
+            padding-top: -300px;
+        }
+        .box4{
+            padding-top: -550px;
+        }
+        .box5{
+            padding-top: -400px;
+        }
+        .box18{
+        } */
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="general">
+        <div class="left">
+            <div class="left-top">
+                <img src="logo1.jpg" width="30px">
+                <img src="home.jpg" width="30px">
+                <img src="addpost1.jpg" width="30px">
+                <img src="notification2.jpg" width="30px">
+                <img src="messages.jpg" width="30px">
+            </div>
+            <div class="left-buttom">
+                <img src="Снимок экрана 2025-10-23 115501.png">
+            </div>
+
+        </div>
+        <div class="icons"></div>
+        <div class="main">
+        <div class="search">
+            <input type="text" placeholder="Search"/>
+            <div class="search-right">
+            <!-- <img class="profile" src="avatar.jpg" style="width: 50px; height: 50px;"> -->
+        </div>
+        </div>
+        <div class="all">
+            <span>All</span>
+            <span>Design</span>
+        </div>
+        <p></p>
+
+        <div class="photos">
+            <div class="bagan1">
+            <div class="box box1"><img src="pinn.jpg" width="250px"></div>
+            <div class="box box2"><img src="pin2.jpg" width="250px"></div>
+            <div class="box box3"><img src="pin3.jpg" width="250px"></div>
+            <div class="box box4"><img src="pin4.jpg" width="250px"></div>
+            <div class="box box5"><img src="pin5.jpg" width="250px"></div>
+            <div class="box box6"><img src="pin6.jpg" width="250px"></div>
+        </div>
+
+        <div class="bagan2">
+            <div class="box box7"><img src="pin7.jpg" width="300px"></div>
+            <div class="box box8"><img src="pin8.jpg" width="300px"></div>
+            <div class="box box9"><img src="pin9.jpg" width="300px"></div>
+            <div class="box box10"><img src="pin10.jpg" width="300px"></div>
+            <div class="box box11"><img src="pin11.jpg" width="300px"></div>
+            <div class="box box12"><img src="pin12.jpg" width="300px"></div>
+        </div>
+
+        <div class="bagan3">
+            <div class="box box13"><img src="pin13.jpg" width="300px"></div>
+            <div class="box box14"><img src="pin14.jpg" width="300px"></div>
+            <div class="box box15"><img src="pin15.jpg" width="300px"></div>
+            <div class="box box16"><img src="pin16.jpg" width="300px"></div>
+            <div class="box box17"><img src="pin17.png" width="300px"></div>
+            <div class="box box18"><img src="pinnnn.jpg" width="300px"></div>
+        </div>
+
+        <div class="bagan4">
+            <div class="box box19"><img src="pin19.jpg" width="300px"></div>
+            <div class="box box20"><img src="pin20.jpg" width="300px"></div>
+            <div class="box box21"><img src="pin21.jpg" width="300px"></div>
+            <div class="box box22"><img src="pin22.jpg" width="300px"></div>
+            <div class="box box23"><img src="pin23.jpg" width="300px"></div>
+        </div>
+
+        <div class="bagan5">
+            <div class="box box24"><img src="pin24.jpg" width="300px"></div>
+            <div class="box box25"><img src="pin25.jpg" width="300px"></div>
+            <div class="box box26"><img src="pin26.jpg" width="300px"></div>
+            <div class="box box27"><img src="pin27.jpg" width="300px"></div>
+            <div class="box box28"><img src="pin28.jpg" width="300px"></div>
+        </div>
+
+        </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
